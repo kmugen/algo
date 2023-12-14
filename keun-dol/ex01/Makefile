@@ -1,4 +1,3 @@
 all:
-		g++ -std=c++20 -o exe $(s).cpp
-		./exe
-		rm ./exe
+		g++ -std=c++14  $(s).cpp
+		./a.out
